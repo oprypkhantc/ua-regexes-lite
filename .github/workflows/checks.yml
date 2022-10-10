@@ -1,0 +1,31 @@
+name: Checks
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  editorconfig:
+    runs-on: ubuntu-latest
+    name: editorconfig
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+      - name: Check editorconfig
+        uses: editorconfig-checker/action-editorconfig-checker@v1
+  package-json:
+    runs-on: ubuntu-latest
+    name: package.json
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18
+          cache: 'pnpm'
+      - name: Check package.json files
+        run: pnpm dlx @trigen/lint-package-json

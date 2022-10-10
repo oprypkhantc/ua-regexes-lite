@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "@trigen/eslint-config",
+    "@trigen/eslint-config/esm"
+  ],
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "no-magic-numbers": "off"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "ua-regexes-lite",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A lite useragent regexes collection.",
+  "author": "dangreen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TrigenSoftware/ua-regexes-lite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TrigenSoftware/ua-regexes-lite/issues"
+  },
+  "keywords": [
+    "useragent",
+    "regex",
+    "regexp"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "exports": "./index.js",
+  "publishConfig": {
+    "directory": "package"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "clear": "del ./package",
+    "prepublishOnly": "run test clear clean-publish",
+    "postpublish": "pnpm clear",
+    "lint": "eslint './*.{js,cjs}' 'test/**/*.js'",
+    "test:unit": "node --test ./test/index.test.js",
+    "test": "run -p lint test:unit",
+    "commit": "cz",
+    "bumpVersion": "standard-version",
+    "createGithubRelease": "simple-github-release",
+    "release": "run bumpVersion [ git push origin main --tags ] createGithubRelease",
+    "updateGitHooks": "simple-git-hooks"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@commitlint/cz-commitlint": "^17.1.2",
+    "@trigen/eslint-config": "8.0.0-alpha.14",
+    "@trigen/scripts": "8.0.0-alpha.9",
+    "clean-publish": "^4.0.1",
+    "commitizen": "^4.2.5",
+    "del-cli": "^5.0.0",
+    "eslint": "^8.25.0",
+    "inquirer": "^8.0.0",
+    "nano-staged": "^0.8.0",
+    "simple-git-hooks": "^2.8.0",
+    "simple-github-release": "^1.0.0",
+    "standard-version": "^9.5.0"
+  }
+}

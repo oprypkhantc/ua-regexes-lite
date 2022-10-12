@@ -8,5 +8,8 @@
   },
   "rules": {
     "no-magic-numbers": "off"
-  }
+  },
+  "ignorePatterns": [
+    "index.d.ts"
+  ]
 }

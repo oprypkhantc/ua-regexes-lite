@@ -1,10 +1,5 @@
 /**
- * @typedef UserAgentRegex
- * @property {RegExp} regex - Regular expression to match user agent.
- * @property {string} family - caniuse-lite compatible browser family name.
- * @property {[number, number, number]} [version] - Fixed browser version.
- * @property {[number, number, number]} [minVersion] - Minimum browser version.
- * @property {[number, number, number]} [maxVersion] - Maximum browser version.
+ * @typedef {import('./index.d').UserAgentRegex} UserAgentRegex
  */
 
 /** @type {UserAgentRegex[]} */

@@ -1,5 +1,0 @@
-{
-  "extends": [
-    "@trigen/npm-package-json-lint-config"
-  ]
-}

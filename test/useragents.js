@@ -1,5 +1,5 @@
 /**
- * @typedef {import('../index.js').UserAgentRegex} UserAgentRegex
+ * @typedef {import('../index.d').UserAgentRegex} UserAgentRegex
  */
 
 export const useragents = [

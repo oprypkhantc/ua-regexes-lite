@@ -20,7 +20,11 @@
   "engines": {
     "node": ">=14"
   },
-  "exports": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    "import": "./index.js",
+    "types": "./index.d.ts"
+  },
   "publishConfig": {
     "directory": "package"
   },

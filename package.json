@@ -29,7 +29,8 @@
     "directory": "package"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "scripts": {
     "clear": "del ./package",

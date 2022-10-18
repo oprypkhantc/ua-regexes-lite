@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/TrigenSoftware/ua-regexes-lite/compare/v1.1.1...v1.1.2) (2022-10-18)
+
+
+### Bug Fixes
+
+* safari regexp should handle ipads useragents ([#8](https://github.com/TrigenSoftware/ua-regexes-lite/issues/8)) ([c889abf](https://github.com/TrigenSoftware/ua-regexes-lite/commit/c889abf67eb31ec35a36b7fcffc683694560d497))
+
 ### [1.1.1](https://github.com/TrigenSoftware/ua-regexes-lite/compare/v1.1.0...v1.1.1) (2022-10-12)
 
 

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.3](https://github.com/TrigenSoftware/ua-regexes-lite/compare/v1.1.2...v1.1.3) (2022-11-05)
+
+
+### Bug Fixes
+
+* sort ie browsers ([908e097](https://github.com/TrigenSoftware/ua-regexes-lite/commit/908e097dc2467f045d0b40eb4f94b12689dd4d44))
+
 ### [1.1.2](https://github.com/TrigenSoftware/ua-regexes-lite/compare/v1.1.1...v1.1.2) (2022-10-18)
 
 

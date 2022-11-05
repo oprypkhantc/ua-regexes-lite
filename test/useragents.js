@@ -22,46 +22,46 @@ export const useragents = [
    */
   {
     ua: 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022)',
-    regex: ['ie@8.0.0', 'ie@<=7']
+    regex: ['ie@<=7', 'ie@8.0.0']
   },
   /**
    * IE 8 Compatability Mode
    */
   {
     ua: 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022)',
-    regex: ['ie@8.0.0', 'ie@<=7']
+    regex: ['ie@<=7', 'ie@8.0.0']
   },
   /**
    * IE 9
    */
   {
     ua: 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
-    regex: ['ie@9.0.0', 'ie@<=7']
+    regex: ['ie@<=7', 'ie@9.0.0']
   },
   /**
    * IE 9 Compatability Mode
    */
   {
     ua: 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)',
-    regex: ['ie@9.0.0', 'ie@<=7']
+    regex: ['ie@<=7', 'ie@9.0.0']
   },
   /**
    * IE 10
    */
   {
     ua: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)',
-    regex: ['ie@10.0.0', 'ie@<=7']
+    regex: ['ie@<=7', 'ie@10.0.0']
   },
   {
     ua: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0)',
-    regex: ['ie@10.0.0', 'ie@<=7']
+    regex: ['ie@<=7', 'ie@10.0.0']
   },
   /**
    * IE 10 Compatability Mode
    */
   {
     ua: 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/6.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)',
-    regex: ['ie@10.0.0', 'ie@<=7']
+    regex: ['ie@<=7', 'ie@10.0.0']
   },
   /**
    * IE 11
@@ -75,7 +75,7 @@ export const useragents = [
    */
   {
     ua: 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)',
-    regex: ['ie@11.0.0', 'ie@<=7']
+    regex: ['ie@<=7', 'ie@11.0.0']
   },
   /**
    * Edge on EdgeHTML
@@ -335,16 +335,16 @@ export const useragents = [
   {
     ua: 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 710)',
     regex: [
-      'ie@9.0.0',
       'ie@<=7',
+      'ie@9.0.0',
       'ie_mob'
     ]
   },
   {
     ua: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 920)',
     regex: [
-      'ie@10.0.0',
       'ie@<=7',
+      'ie@10.0.0',
       'ie_mob'
     ]
   },

@@ -4,24 +4,24 @@
 
 /** @type {UserAgentRegex[]} */
 export const regexes = [
+  {
+    regex: /IE (\d+)\.(\d+)/,
+    family: 'ie',
+    maxVersion: [
+      7,
+      Infinity,
+      Infinity
+    ]
+  },
   /**
    * IE can be in Compatability Mode (IE 7.0)
    * so we need to check Trident version
    */
   {
-    regex: /Trident\/[78]\.0/,
+    regex: /Trident\/4\.0/,
     family: 'ie',
     version: [
-      11,
-      0,
-      0
-    ]
-  },
-  {
-    regex: /Trident\/6\.0/,
-    family: 'ie',
-    version: [
-      10,
+      8,
       0,
       0
     ]
@@ -36,21 +36,21 @@ export const regexes = [
     ]
   },
   {
-    regex: /Trident\/4\.0/,
+    regex: /Trident\/6\.0/,
     family: 'ie',
     version: [
-      8,
+      10,
       0,
       0
     ]
   },
   {
-    regex: /IE (\d+)\.(\d+)/,
+    regex: /Trident\/[78]\.0/,
     family: 'ie',
-    maxVersion: [
-      7,
-      Infinity,
-      Infinity
+    version: [
+      11,
+      0,
+      0
     ]
   },
   {

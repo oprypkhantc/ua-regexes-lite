@@ -46,11 +46,10 @@
     "updateGitHooks": "simple-git-hooks"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.3",
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
     "@commitlint/cz-commitlint": "^17.1.2",
-    "@trigen/eslint-config": "8.0.0-alpha.21",
+    "@trigen/eslint-config": "8.0.0-alpha.22",
     "@trigen/scripts": "8.0.0-alpha.21",
     "clean-publish": "^4.0.1",
     "commitizen": "^4.2.5",

@@ -10,7 +10,7 @@
 [node]: https://img.shields.io/node/v/ua-regexes-lite.svg
 [node-url]: https://nodejs.org
 
-[build]: https://img.shields.io/github/actions/workflow/status/TrigenSoftware/ua-regexes-lite/CI.yml?branch=main
+[build]: https://img.shields.io/github/actions/workflow/status/TrigenSoftware/ua-regexes-lite/ci.yml?branch=main
 [build-url]: https://github.com/TrigenSoftware/ua-regexes-lite/actions
 
 A lite useragent regexes collection.

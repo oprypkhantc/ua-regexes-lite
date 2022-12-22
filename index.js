@@ -174,14 +174,14 @@ export const regexes = [
     ]
   },
   {
-    regex: /Android:?[ \-/](\d+)(\.(\d+)|)(\.(\d+)|)/,
+    regex: /Android:?[ /-](\d+)(\.(\d+)|)(\.(\d+)|)/,
     family: 'android'
   },
   /**
    * Ignore IE Mobile 11
    */
   {
-    regex: /Android:?[ \-/](\d+)(\.(\d+)|)(\.(\d+)|);(?! ARM; Trident)/,
+    regex: /Android:?[ /-](\d+)(\.(\d+)|)(\.(\d+)|);(?! ARM; Trident)/,
     family: 'android',
     version: [
       4,

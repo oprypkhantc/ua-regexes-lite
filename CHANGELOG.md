@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.4](https://github.com/TrigenSoftware/ua-regexes-lite/compare/v1.1.3...v1.1.4) (2022-12-22)
+
+
+### Bug Fixes
+
+* remove unecessary char escaping ([adef242](https://github.com/TrigenSoftware/ua-regexes-lite/commit/adef242cee736d554463643e9c1164ad8787c4f2))
+
 ### [1.1.3](https://github.com/TrigenSoftware/ua-regexes-lite/compare/v1.1.2...v1.1.3) (2022-11-05)
 
 

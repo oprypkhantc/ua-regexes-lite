@@ -79,9 +79,10 @@ export const regexes = [
   },
   /**
    * Safari on iPad have desktop-like useragent
+   * Some versions contains letter subversions
    */
   {
-    regex: /Maci.+ Version\/(\d+)\.(\d+)([.,](\d+)|)( Mobile\/\w+|) Safari\//,
+    regex: /Maci.+ Version\/(\d+)\.(\d+)([.,](\d+)|)( \(\w+\)|)( Mobile\/\w+|) Safari\//,
     family: 'safari'
   },
   /**

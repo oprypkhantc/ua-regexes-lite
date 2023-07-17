@@ -160,6 +160,11 @@ export const useragents = [
     ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15',
     regex: ['safari']
   },
+  {
+    // Letter subversion
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.2 (a) Safari/605.1.15',
+    regex: ['safari']
+  },
   /**
    * Safari iPad Desktop-like
    */

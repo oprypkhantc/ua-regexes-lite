@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.5](https://github.com/TrigenSoftware/ua-regexes-lite/compare/v1.1.4...v1.1.5) (2023-07-17)
+
+
+### Bug Fixes
+
+* safari version can contain letter ([e711f61](https://github.com/TrigenSoftware/ua-regexes-lite/commit/e711f61565b353ec07420d65f03341938520ec57))
+
 ### [1.1.4](https://github.com/TrigenSoftware/ua-regexes-lite/compare/v1.1.3...v1.1.4) (2022-12-22)
 
 

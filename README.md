@@ -26,10 +26,10 @@ A lite useragent regexes collection.
 ## Install
 
 ```bash
-# yarn
-yarn add ua-regexes-lite
 # pnpm
 pnpm add ua-regexes-lite
+# yarn
+yarn add ua-regexes-lite
 # npm
 npm i ua-regexes-lite
 ```

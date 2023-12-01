@@ -80,9 +80,10 @@ export const regexes = [
   /**
    * Safari on iPad have desktop-like useragent
    * Some versions contains letter subversions
+   * GNOME Web (X11) is based on WebKit and should be detected as Safari
    */
   {
-    regex: /Maci.+ Version\/(\d+)\.(\d+)([.,](\d+)|)( \(\w+\)|)( Mobile\/\w+|) Safari\//,
+    regex: /(Maci|X11).+ Version\/(\d+)\.(\d+)([.,](\d+)|)( \(\w+\)|)( Mobile\/\w+|) Safari\//,
     family: 'safari'
   },
   /**

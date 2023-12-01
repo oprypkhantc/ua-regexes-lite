@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/TrigenSoftware/ua-regexes-lite/compare/v1.1.5...v1.2.0) (2023-12-01)
+
+
+### Features
+
+* support GNOME Web ([#22](https://github.com/TrigenSoftware/ua-regexes-lite/issues/22)) ([2c7c69e](https://github.com/TrigenSoftware/ua-regexes-lite/commit/2c7c69e3fd1bd810975a31efbc539830d335d03e))
+
 ### [1.1.5](https://github.com/TrigenSoftware/ua-regexes-lite/compare/v1.1.4...v1.1.5) (2023-07-17)
 
 

@@ -18,7 +18,7 @@
 [size]: https://packagephobia.com/badge?p=ua-regexes-lite
 [size-url]: https://packagephobia.com/result?p=ua-regexes-lite
 
-[build]: https://img.shields.io/github/actions/workflow/status/TrigenSoftware/ua-regexes-lite/ci.yml?branch=main
+[build]: https://img.shields.io/github/actions/workflow/status/TrigenSoftware/ua-regexes-lite/tests.yml?branch=main
 [build-url]: https://github.com/TrigenSoftware/ua-regexes-lite/actions
 
 A lite useragent regexes collection.

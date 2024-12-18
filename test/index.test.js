@@ -5,20 +5,20 @@ import { regexes } from '../index.js'
 import { getRegexId, useragents } from './useragents.js'
 
 describe('regexes', () => {
-  const modes = [
+  const engines = [
     {
-      mode: 'JS',
+      engine: 'JS',
       wrapRegex: regex => regex
     },
     {
-      mode: 'RE2',
+      engine: 'RE2',
       wrapRegex: regex => new RE2(regex)
     }
   ]
 
-  modes.forEach(({ mode, wrapRegex }) => {
+  engines.forEach(({ engine, wrapRegex }) => {
     useragents.forEach(({ ua, regex }) => {
-      it(`${ua} should match [${regex.join(', ')}] in ${mode} mode`, () => {
+      it(`${ua} should match [${regex.join(', ')}] with ${engine} engine`, () => {
         const matches = regexes.reduce((matches, userAgentRegex) => {
           if (wrapRegex(userAgentRegex.regex).test(ua)) {
             matches.push(getRegexId(userAgentRegex))

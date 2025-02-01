@@ -70,7 +70,7 @@ export const regexes = [
    */
   {
     // Equivalent to /Chrom(ium|e)\/(\d+)\.(\d+)(\.(\d+)|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))/
-    regex: /Chrom(ium|e)\/(\d+)\.(\d+)(\.(\d+)|)(\.\d+|)([\d.]+$|.*([^e]|[^g]e|[^d]ge|[^E]dge)\/[\d.]+$)/,
+    regex: /Chrom(ium|e)\/(\d+)\.(\d+)(\.(\d+)|)(\.\d+|)($|.*([^e]|[^g]e|[^d]ge|[^E]dge)\/[\d.]+$)/,
     family: 'chrome',
     maxVersion: [
       70,
